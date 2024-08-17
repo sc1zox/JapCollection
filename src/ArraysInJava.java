@@ -23,7 +23,4 @@ public class ArraysInJava {
         return returnArray;
     }
 
-    public char[] exchangeNew (char[] text){
-        
-    }
 }
