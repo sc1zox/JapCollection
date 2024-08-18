@@ -1,5 +1,4 @@
-import java.sql.Array;
-import java.sql.SQLOutput;
+package Übungen;
 
 class StaticIsForBeginners{
 

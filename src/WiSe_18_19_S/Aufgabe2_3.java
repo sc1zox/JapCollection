@@ -8,7 +8,7 @@ public class Aufgabe2_3 {
 
 
         int[] result = fiboSum(2,4,6);
-        System.out.print("Das Fibonacci-Array ist: [");
+        System.out.print("Das Übungen.Fibonacci-Array ist: [");
         for (int i = 0; i < result.length; i++) {
             System.out.print(result[i]);
             if (i< result.length-1){

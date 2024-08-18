@@ -1,3 +1,5 @@
+package Übungen;
+
 public class Fibonacci {
 
     int fibrek(int in){

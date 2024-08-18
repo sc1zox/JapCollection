@@ -5,7 +5,7 @@ public class Aufgabe2 {
     public static void main(String[] args) {
         int[] result = fiboSum(1,2,5);
 
-        System.out.print("Fibonacci array: [");
+        System.out.print("Übungen.Fibonacci array: [");
         for (int i = 0; i < result.length; i++) {
             System.out.print(result[i]);
 

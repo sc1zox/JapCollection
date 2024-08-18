@@ -1,3 +1,5 @@
+package Übungen;
+
 public class ArraysInJava {
 
     public void myPrintArray(int[] input){
