@@ -13,26 +13,24 @@ public class TestKlasse {
         neuStack.PrintStack();
 
         try {
-            System.out.println(neuStack.top());
+            System.out.println("Das Top Elem: "+neuStack.top());
         } catch (EmptyStackException e) {
             System.out.println(e.getMessage());
         }
 
         try {
             copyStack = neuStack.copy();
-            System.out.println(copyStack.top());
+            System.out.println("Kopierter Stack:");
+            copyStack.PrintStack();
+            System.out.println("Test auf Gleicheit: ");
             System.out.println(copyStack==neuStack); // Test auf Identität
         } catch (EmptyStackException e) {
             System.out.println(e.getMessage());
         }
 
         neuStack.invert();
+        System.out.println("Invertierter Stack:");
         neuStack.PrintStack();
 
-        try {
-            System.out.println(neuStack.top());
-        } catch (EmptyStackException e) {
-            System.out.println(e.getMessage());
-        }
     }
 }

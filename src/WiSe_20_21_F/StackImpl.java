@@ -1,7 +1,5 @@
 package WiSe_20_21_F;
 
-import java.util.EmptyStackException;
-
 public class StackImpl implements Stack{
 
     private ElemImpl top;

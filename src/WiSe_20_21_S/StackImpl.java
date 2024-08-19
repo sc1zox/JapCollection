@@ -58,6 +58,7 @@ public class StackImpl implements StackPlus{
                 neu.push(current.getContent());
                 current=current.getNext();
             }
+            neu.invert();
         }
         return neu;
     }
