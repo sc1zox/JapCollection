@@ -11,6 +11,7 @@ public class Testclass {
         Liste.insertElem(3);
         Liste.insertElem(25);
         Liste.insertElem(2);
+        Liste.insertElem(500);
 
         Liste.printList();
 

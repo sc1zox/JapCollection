@@ -21,13 +21,14 @@ public class Warteschlange {
     }
     public int ermittleZahlWartender(){
         int count = 0;
-        if(beginnDerSchlange!=null){
-            count=1;
-        }// 1 da letzte person nicht mitgezählt wird in schleife
+        if(beginnDerSchlange==null){
+            System.out.println("Schlange leer");
+         return 0;
+        }
 
         Person current = beginnDerSchlange;
 
-        while(current.next!=null){
+        while(current!=null){
             count++;
             current=current.next;
         }

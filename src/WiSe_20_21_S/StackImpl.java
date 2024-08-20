@@ -7,6 +7,7 @@ public class StackImpl implements StackPlus{
 
     public StackImpl(){
         first=null;
+        size=0;
     }
 
     @Override

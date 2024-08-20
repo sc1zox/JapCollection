@@ -1,8 +1,8 @@
 package WiSe_20_21_S;
 
 public class ElemImpl implements Elem{
-    public int content;
-    public Elem next;
+    private int content;
+    private Elem next;
 
     public ElemImpl(int content,Elem next){
         this.content=content;

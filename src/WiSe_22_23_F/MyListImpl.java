@@ -42,7 +42,7 @@ public class MyListImpl implements MyList {
                 return -42;
             }else{
                 Elem current = front;
-                while(current.next!=null){
+                while(current!=null){
                     if(current.content>max){
                         max=current.content;
                     }
